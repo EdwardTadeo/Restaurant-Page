@@ -1,1 +1,1 @@
-var patata;
+var patata =0;
