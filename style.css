@@ -1,3 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 body{
-    background-color: antiquewhite;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-image: url(images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu .bar-nav ul{
+    list-style: none;
+}
+
+.menu .bar-nav ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .bar-nav ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fdfdfd;
+    display: block;
+    text-transform: uppercase;
+}
+.menu .bar-nav ul li a:hover{
+    color: red;
+}
+#menu {
+    display: none;
+}
+
+.menu-icon{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.page-header-content{
+    display: flex;
+    align-items: center;
+    padding: 200px 0 150px 0; 
+}
+.page-header-text{
+    width: 40%;
+    padding-right: 25px;
+}
+.page-header-text h1{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 800;
+    color:#fdfdfd;    
+    margin-bottom: 25px;
+}
+
+.page-header-text p{
+    font-size: 18px;
+    color: #a0a0a0;
+}
+
+.page-header-image{
+    width: 60%;
+}
+
+.hamburguer{
+    width: 100%;
+
+}
+
+.page-header-buttom{
+    display: flex;
+    margin-top: 50px;
+
+}
+.btn-1{
+    display: inline-block;
+    background: linear-gradient(90deg,#e70B25 0%,#900314 100%);
+    padding: 10px 35px;
+    margin-right: 20px;
+    color:#fdfdfd;
+    border-radius: 25px;
+
 }
