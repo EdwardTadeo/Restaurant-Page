@@ -112,5 +112,28 @@ header{
     margin-right: 20px;
     color:#fdfdfd;
     border-radius: 25px;
+}
 
+.btn-1:hover{
+    background:linear-gradient(90deg,#df2d42 0%,#ee142d 100%) ;
+    transform: scale(1.1);
+    color: black;
+}
+
+.btn-2{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 35px;
+    margin-right: 20px;
+    color:#fdfdfd;
+    border-radius: 25px;
+}
+
+.btn-2:hover{
+    border: 2px solid purple;
+    transform: scale(1.1);
+}
+
+.icon{
+    width: 20px;
 }
