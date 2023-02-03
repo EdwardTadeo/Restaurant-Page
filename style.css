@@ -154,3 +154,16 @@ header{
     position: relative;
     
 }
+.hoja{
+    right: 0;
+    position: absolute;
+    bottom: -120px;
+    width: 150px;
+ }
+
+ .menu-nav{
+    display: flex;
+    margin-bottom: 45px;
+    color: white;
+    padding: 2;
+ }
