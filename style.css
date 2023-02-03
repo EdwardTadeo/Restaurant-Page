@@ -137,3 +137,20 @@ header{
 .icon{
     width: 20px;
 }
+
+.page-menu-product{
+    padding: 50px 0 150px 0;
+}
+
+.title{
+    color: wheat;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.product-container{
+    display: flex;
+    position: relative;
+    
+}
