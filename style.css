@@ -380,7 +380,7 @@ header{
 }
 
 .info-image img{
-    width: 650px;
+    width: 150px;
 }
 
 .footer-page{
@@ -414,15 +414,95 @@ header{
     margin: 0 10px;
     height: 40px;
     width: 40px;
-    border: 1px solid #e70B25;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .social:hover{
     background-color: #e70B25;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .social img{
-    margin: 8px 0 0 10px;
+    margin: 9px 0 0 11px;
+}
+
+@media(max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .bar-nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        opacity: .5;
+        display: none;
+    }
+    
+    .menu .bar-nav ul li{
+        width: 100%;
+    }
+
+    .menu .bar-nav ul li a:hover{
+        color: red;
+    }
+
+    #menu-logo:checked ~ .bar-nav{
+         display: initial;
+    }
+
+    .page-header-content{
+        flex-direction: column;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .page-header-text{
+        width: 100%;
+        text-align: center;padding: 0;
+    }
+
+    .page-header-text h1{
+        font-size: 40px;
+    }
+
+    .page-header-buttom{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-1,.btn-2{
+        margin-bottom: 20px;
+    }
+
+    .page-header-image{
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .product-container{
+        padding: 30px;
+    }
+
+    .title{
+        margin-bottom: 20px;
+    }
+    .hoja{
+        display: none;
+    }
+
+    .menu-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab{
+        margin-bottom: 25px;
+    }
 }
