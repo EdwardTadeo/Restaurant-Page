@@ -323,3 +323,106 @@ header{
     background-size: cover;
     height: 50vh;
 }
+
+.page-info-content{
+    display: flex;
+    position: relative;
+}
+
+.page-info-text{
+    width: 60%;
+    margin-top: 85px;
+}
+
+.page-info-text h2{
+    color: #fdfdfd;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.page-info-text p{
+    font-size: 20px;
+    color: #a0a0a0;
+    margin-bottom: 25px;
+}
+
+.section-info{
+    display: flex;
+
+}
+
+.info-1{
+    display: flex;
+}
+
+.info-1 img{
+    width: 80px;
+}
+
+.info-2{
+    margin-left: 25px;
+}
+
+.info-2 h3{
+    color: #fdfdfd;
+    font-size: 25px;
+}
+
+.info-2 p{
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.info-image{
+    position: absolute;
+    right: -55px;
+    top: -103px;
+}
+
+.info-image img{
+    width: 650px;
+}
+
+.footer-page{
+    padding: 150px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.enlaces h4{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.enlaces ul li a{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.socials{
+   display: flex;
+}
+
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e70B25;
+    border-radius: 50%;
+}
+
+.social:hover{
+    background-color: #e70B25;
+    cursor: pointer;
+}
+
+.social img{
+    margin: 8px 0 0 10px;
+}
