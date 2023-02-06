@@ -290,9 +290,10 @@ header{
 }
 
 .buy{
-    padding: 1px 15px 0px 15 px;
-    border-radius: 15px;
+    padding: 1px 15px 0px 15px;
+    border-radius: 100px;
     background: linear-gradient(90deg,#95852c 0%, #586E25 100%);
+    cursor: pointer;
 }
 
 .buy img{
